@@ -5,7 +5,7 @@ import { catchError, firstValueFrom } from 'rxjs';
 export class AppService {
   constructor(private readonly httpService: HttpService) {}
   getHello(): string {
-    return 'Hello World!';
+    return '20PW32 CA2 DECL LAB TEST';
   }
   async getAlbums(id:string):Promise<any>{
     const requestHeader={
